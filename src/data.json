@@ -34,7 +34,43 @@
         "step": 10
       },
       "fixed_sides": [
-
+      ]
+    },
+    {
+      "id": 2,
+      "type": "rectangle",
+      "is_visible": true,
+      "fixed_corner_index": 1,
+      "is_resizeable": true,
+      "object": {
+        "x": 200,
+        "y": 100,
+        "width": 100,
+        "height": 100,
+        "fill": "0xA32952"
+      },
+      "limit": {
+        "l": [
+          20,
+          200
+        ],
+        "b": [
+          40,
+          150
+        ]
+      },
+      "resizeable_points": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "resizeable_options": {
+        "type": "discrete",
+        "step": 10
+      },
+      "fixed_sides": [
+        "l"
       ]
     }
   ]
